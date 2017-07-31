@@ -1,0 +1,48 @@
+{
+  "name": "corrieneuch-sequelize",
+  "version": "0.1.0",
+  "description": "A sequelize-powered implementation of Corrieneuch",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "scripts": {
+    "test": "ava dist/test/**/*.js",
+    "prepublish": "grunt"
+  },
+  "author": "Stewart Mackenzie-Leigh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.71",
+    "@types/node": "^8.0.17",
+    "ava": "^0.17.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.16",
+    "load-grunt-tasks": "^3.5.2",
+    "pg": "^6.2.2",
+    "rc-yaml": "^1.0.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/sequelize": "^4.0.54",
+    "corrieneuch": "^0.1.0",
+    "filtr": "^0.3.0",
+    "lodash": "^4.17.4",
+    "sequelize": "^3.30.4"
+  },
+  "keywords": [
+    "superapi",
+    "sequelize",
+    "database",
+    "sql"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stewartml/corrieneuch-sequelize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stewartml/corrieneuch-sequelize/issues"
+  },
+  "homepage": "https://github.com/stewartml/corrieneuch-sequelize#readme"
+}
