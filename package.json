@@ -1,6 +1,6 @@
 {
   "name": "corrieneuch-sequelize",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A sequelize-powered implementation of Corrieneuch",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
@@ -13,6 +13,7 @@
   "devDependencies": {
     "@types/lodash": "^4.14.71",
     "@types/node": "^8.0.17",
+    "@types/sequelize": "^4.0.67",
     "ava": "^0.17.0",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
@@ -29,7 +30,7 @@
     "corrieneuch": "^0.1.0",
     "filtr": "^0.3.0",
     "lodash": "^4.17.4",
-    "sequelize": "^3.30.4"
+    "sequelize": "^4.4.2"
   },
   "keywords": [
     "superapi",
